@@ -34,6 +34,24 @@ pip install -r requirements.txt # Installs the required packages
 ## Known issues
 - API for map of buggy course is broken so displaying shows on a white background
 
+
+### (Windows users) Installing from Source
+1. Download RTKLIB from https://rtklib.com
+2. Save it somewhere onto your computer, and save the file path
+
+
+3. Go into Settings and Search for "edit environment variables for your account"
+![image](https://github.com/user-attachments/assets/33050a8d-ef3f-44f1-80a6-9ed3c0f98d51)
+
+4. Select Path Variable and Press Edit
+![image](https://github.com/user-attachments/assets/a440351d-3872-4141-af3c-af6d435dad7b)
+
+5. Select New, and Paste the file path into the path
+
+6. Save
+
+
+
 ### (MacOS users) Installing from source
 1. Edit the below files as per the diff
 2. Run `make && make install` from `(RTKLIB)/app/consapp`
